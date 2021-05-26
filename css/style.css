@@ -1,0 +1,138 @@
+/*
+author PHOENIX
+theme: food order
+version 1.0
+*/
+*{
+    margin: 0 auto;
+    padding: 0 0 0 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h2{
+    color: slategray;
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
+.container {
+    width : 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+.border-curve{
+    border-radius: 3px;
+}
+.img-resposive{
+    width: 105%;
+    }
+    .text-right{
+        text-align: right;
+    }
+    .text-center{
+        text-align: center;
+    }
+    a{
+        color: rgb(223, 12, 12);
+        text-decoration: none;
+
+    }
+    .btn{
+        padding: 1%;
+        font-size: 1rem;
+        border-radius: 5px;
+    }
+    .btn-primary{
+        background-color: rgb(213, 247, 20);
+    }
+    .btn-primary-hover{
+        background-color: seagreen;
+    }
+    a:hover{
+        color: rgb(27, 250, 120);
+    }
+
+/* css for navbar section*/
+
+.logo{
+    width: auto;
+    float: left;
+    margin: 1% auto;
+}
+
+.menu ul {
+    list-style-type:none ;
+    line-height: 30px;
+}
+.menu ul li{
+    font-weight: bold;
+
+}
+/*css for food search section*/
+
+.food-search{
+    background-image:url(../bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding : 7% 0;
+  
+}
+.food-search input[type="search"]{
+    width: 50%;
+   padding: 1%;
+   font size: 1rem;
+    border=none
+    border radius=5%;
+}
+
+
+/*css for categories */
+.categories{
+    padding: 4% 0;
+}
+
+.box-3{
+    align-items: center;
+    width: 33%;
+    float: inline-start;
+    margin: 1%;
+}
+h3{
+    text-align: center;
+}
+/* FOod menu section*/
+.fOod-menu{
+background-color:gainsboro;
+padding: 4% 10%;
+}
+.food-menu{
+    width: 40%;
+    margin: .2%;
+    padding: 2%;
+    background-color: ghostwhite;
+}
+
+.food-menu-description{
+    width: 70%;
+    margin left: 8%;
+}
+
+/*css for social*/
+.social ul{
+    list-style-type: none;
+}
+
+.social ul li{
+    display: inline;
+    padding:1%;
+
+}
+/*CSS for mobile site*/
+@media only screen and (max width:768px){
+
+}
+ 
+
+
+
+
+
